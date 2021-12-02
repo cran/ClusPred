@@ -6,8 +6,8 @@
 ##' \tabular{ll}{
 ##'   Package: \tab ClusPred\cr
 ##'   Type: \tab Package\cr
-##'   Version: \tab 1.0.0\cr
-##'   Date: \tab 2021-06-01\cr
+##'   Version: \tab 1.1.0\cr
+##'   Date: \tab 2021-12-01\cr
 ##'   License: \tab GPL-3\cr
 ##'   LazyLoad: \tab yes\cr
 ##' }

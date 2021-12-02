@@ -37,7 +37,7 @@ Singleblock_algo_NP_smoothPDF <- function(y, x, u, model.reg, param){
       }else{
         se <- seq(min(na.omit(x[,j])) - 5 * param$band, max(na.omit(x[,j]))+ 5 * param$band, length.out = 1000)
         size <- (max(se) - min(se)) / length(se)
-        out[,k] <- out[,k] + as.numeric(obj3Cpp(se, xj=x[who,j], weightsR=param$weights[who,k],band=param$band)) * size
+        out[who,k] <- out[who,k] + as.numeric(obj3Cpp(se, xj=x[who,j], weightsR=param$weights[who,k],band=param$band)) * size
       }
     }
   }
